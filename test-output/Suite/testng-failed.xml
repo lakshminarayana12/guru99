@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="Testfirefox(failed)">
+    <classes>
+      <class name="script.Testcase5">
+        <methods>
+          <include name="createAccount"/>
+          <include name="closeApplication"/>
+          <include name="openapplication"/>
+        </methods>
+      </class> <!-- script.Testcase5 -->
+      <class name="script.Testcase6">
+        <methods>
+          <include name="closeApplication"/>
+          <include name="verifyuserisabletopurchaseproduct"/>
+          <include name="openapplication"/>
+        </methods>
+      </class> <!-- script.Testcase6 -->
+    </classes>
+  </test> <!-- Testfirefox(failed) -->
+</suite> <!-- Failed suite [Suite] -->
